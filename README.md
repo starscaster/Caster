@@ -28,4 +28,5 @@ deepseek-v4-flash-thinking → Flash + hight thinking
 deepseek-v4-flash-max → Flash + max thinking
 
 deepseek-v4-pro-thinking → Pro + hight thinking
+
 deepseek-v4-pro-max → Pro + max thinking
