@@ -46,7 +46,7 @@ class ReasoningCache:
             return {}
         result = {}
         for i, msg in enumerate(messages):
-            if msg.get("role") == "assistant" and "reasoning_content" not in msg:
+            if msg.get("role") == "assistant" and not msg.get("reasoning_content"):
                 reasoning = None
                 for tc in msg.get("tool_calls", []):
                     tc_id = tc.get("id")
@@ -205,7 +205,7 @@ def proxy():
     return build_cors_response(Response(generate(), content_type='text/event-stream'))
 
 if __name__ == '__main__':
-    port = int(os.getenv("PROXY_PORT", "20123"))
+    port = int(os.getenv("PROXY_PORT", "20262"))
     print(f"proxy started: http://localhost:{port}")
     print(f"config: model={CONFIG['model']}, temperature={CONFIG['temperature']}, "
           f"thinking={CONFIG['thinking_mode']}")
