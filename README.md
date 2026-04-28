@@ -1,6 +1,6 @@
 # Caster
 DeepSeek API Proxy
-Fix DeepSeek V4's new API (thinking mode / reasoning_effort) not working with chatbox UIs like SillyTavern, OpenCode, etc.
+Fix DeepSeek V4's new API (thinking mode / reasoning_effort / reasoning_content) not working with Chatbox
 
 How to Use
 1. Install
