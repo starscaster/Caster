@@ -205,7 +205,7 @@ def proxy():
     return build_cors_response(Response(generate(), content_type='text/event-stream'))
 
 if __name__ == '__main__':
-    port = int(os.getenv("PROXY_PORT", "20262"))
+    port = int(os.getenv("PROXY_PORT", "20123"))
     print(f"proxy started: http://localhost:{port}")
     print(f"config: model={CONFIG['model']}, temperature={CONFIG['temperature']}, "
           f"thinking={CONFIG['thinking_mode']}")
