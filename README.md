@@ -20,8 +20,7 @@ python proxy.py
 Set the API endpoint to:
 
 TEXT
-http://localhost:20262/v1/chat/completions
-Pick any model name:
+http://localhost:20123/v1/chat/completions
 
 deepseek-v4-flash-thinking → Flash + hight thinking
 
