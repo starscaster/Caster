@@ -23,7 +23,9 @@ TEXT
 http://localhost:20262/v1/chat/completions
 Pick any model name:
 
-deepseek-v4-flash-thinking → Flash + thinking on
-deepseek-v4-flash-max → Flash + max reasoning
-deepseek-v4-pro-thinking → Pro + thinking on
-deepseek-v4-pro-max → Pro + max reasoning
+deepseek-v4-flash-thinking → Flash + hight thinking
+
+deepseek-v4-flash-max → Flash + max thinking
+
+deepseek-v4-pro-thinking → Pro + hight thinking
+deepseek-v4-pro-max → Pro + max thinking
