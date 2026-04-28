@@ -7,13 +7,18 @@ How to Use
 
 pip install flask requests
 
+
 2. Set your DeepSeek key
 
 export DEEPSEEK_KEY="sk-your-key-here"
 
+(You can also set the API key on the client side, and the proxy will transmit it transparently)
+
+
 3. Run
 
 python proxy.py
+
 
 4. In your chatbox
 
