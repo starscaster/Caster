@@ -12,7 +12,7 @@ pip install flask requests
 
 export DEEPSEEK_KEY="sk-your-key-here"
 
-(You can also set the API key on the client side, and the proxy will transmit it transparently)
+(You can also set the API key on the client side, and the proxy will apply the passed value)
 
 
 3. Run
